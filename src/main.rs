@@ -15,7 +15,7 @@ fn main() -> Result<(), io::Error> {
             .title("Block")
             .borders(Borders::ALL)
             .render(&mut f, size);
-    });
+    })?;
     Ok(())
 }
 
